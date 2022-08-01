@@ -1,11 +1,11 @@
 import scala.compiletime.ops.string
 
 def toUpper(str : String) : String = {
-  return str.toUpperCase;
+  str.toUpperCase;
 }
 
 def toLower(str : String) : String = {
-  return str.toLowerCase;
+  str.toLowerCase;
 }
 
 def formatNames(name : String)(namesOfFunc : String => String) : String ={
